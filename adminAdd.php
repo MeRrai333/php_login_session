@@ -111,7 +111,7 @@
                 <option value="1">User</option>
                 <option value="99">Admin</option>
             </select>
-            <input type="submit" value="Sign up">
+            <input class="submitSignin" type="submit" value="Sign up">
         </form>
     </body>
 </html>
