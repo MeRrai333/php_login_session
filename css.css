@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.loginCard{
+    background-color: #222;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #222222;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.25rem;
+    width: 300px;
+}
+
+.alink{
+    margin-top: 0.5rem;
+    color: #0ee;
+    text-decoration: none;
+}
+.alink:hover, .signOut:hover, .aBack:hover, .aAdd:hover, .btnSearch:hover, .aEdit:hover, .submitSignin:hover{
+    filter: brightness(80%);
+}
+
+.signOut{
+    text-decoration: none;
+    background-color: #444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.aBack{
+    text-decoration: none;
+    background-color: #444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.aAdd {
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #444;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], select{
+    color: #fff;
+    background-color: #444;
+    border: none;
+    padding: 0.2rem;
+}
+
+
+.aEdit{
+    text-decoration: none;
+    background-color: #444;
+    color: white;
+    padding: 0.3rem 0.75rem 0.3rem 0.75rem;
+    border-radius: 5px;
+}
+
+.submitSignin{
+    margin-top: 1rem;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.submitSignin:hover{
+    cursor: pointer;
+}
+
+.userTableContainer{
+    border-radius: 10px;
+    background-color: #222222;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.25rem;
+    width: 600px;
+}
+
+.btnSearch{
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.btnSearch{
+    cursor: pointer;
+}
+
+table {
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+    filter: brightness(80%);
+}
