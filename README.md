@@ -4,7 +4,7 @@ Homework No.8 php mysql login with session for Server programing subject <br/>
 Create mysql database name "dbhw8" and import user.sql
 
 <h3> Admin </h3>
-username: admin
+username: admin <br/>
 password: 1234
 
 <h3> Function </h3>
