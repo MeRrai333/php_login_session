@@ -9,6 +9,10 @@
         <script src="./signedin.js"></script>
         <script>
             const del = (id) => {
+                if(id == 1){
+                    alert("ลบ admin หลักไม่ได้");
+                    return;
+                }
                 let prom = prompt("Enter \"DELETE\" for delete user","");
                 if(prom == "DELETE")
                     window.location.href = "./adminDelete.php?id=<?php echo $_GET['id']?>";
@@ -122,7 +126,7 @@
             <input type="email" name="email" id="email" value="<?php echo $email?>">
 
             <input class="submitSignin" type="submit" value="Save">
-            <button class="submitSignin" type="button" onclick="del(<?php echo $id?>)">Delete</button>
+            <button class="submitSignin" type="button" onclick="del(<?php echo $id?>)" dis>Delete</button>
         </form>
         <?php
             if($_SERVER["REQUEST_METHOD"] == "POST"){
